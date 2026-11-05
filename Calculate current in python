@@ -1,0 +1,3 @@
+v = float(input("Enter voltage: "))
+r = float(input("Enter resistance: "))
+print("Current =", v/r, "A")
