@@ -1,0 +1,6 @@
+P = float(input("Enter real power: "))
+S = float(input("Enter apparent power: "))
+
+PF = P / S
+
+print("Power Factor =", PF)
