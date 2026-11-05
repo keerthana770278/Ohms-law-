@@ -1,0 +1,4 @@
+r1 = float(input("Enter R1: "))
+r2 = float(input("Enter R2: "))
+r = (r1*r2)/(r1+r2)
+print("Parallel Resistance =", r)
