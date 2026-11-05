@@ -1,0 +1,7 @@
+R1 = float(input("Enter R1: "))
+R2 = float(input("Enter R2: "))
+R3 = float(input("Enter R3: "))
+
+R = R1 + R2 + R3
+
+print("Total Resistance =", R)
