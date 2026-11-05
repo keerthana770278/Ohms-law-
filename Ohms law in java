@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter voltage: ");
+        double v = sc.nextDouble();
+        System.out.print("Enter resistance: ");
+        double r = sc.nextDouble();
+        double i = v / r;
+        System.out.println("Current = " + i + " A");
+    }
+}
