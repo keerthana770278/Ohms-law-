@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double r1 = sc.nextDouble();
+        double r2 = sc.nextDouble();
+        double r3 = sc.nextDouble();
+        System.out.println("Total Resistance = " + (r1+r2+r3));
+    }
+}
