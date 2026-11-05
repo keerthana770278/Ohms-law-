@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double v = sc.nextDouble();
+        double i = sc.nextDouble();
+        System.out.println("Power = " + (v * i) + " Watts");
+    }
+}
